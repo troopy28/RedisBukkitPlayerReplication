@@ -1,8 +1,0 @@
-[
-    {
-        "modid": "sponge-replicate",
-        "name": "sponge-replicate",
-        "version": "1.0.0",
-        "description": "A plugin to replicate players on several MC servers."
-    }
-]
