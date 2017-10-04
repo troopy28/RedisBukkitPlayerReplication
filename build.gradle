@@ -1,0 +1,58 @@
+buildscript {
+    repositories {
+        maven {
+            name 'forge'
+            url 'http://files.minecraftforge.net/maven'
+        }
+    }
+
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+        classpath "com.github.jengelman.gradle.plugins:shadow:2.0.1" // To compile with dependencies
+    }
+}
+
+plugins {
+    id 'org.spongepowered.plugin' version '0.8.1'
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: "com.github.johnrengelman.shadow"
+
+group = 'org.kubithon'
+version = '1.0.0'
+description = 'A plugin to replicate players on several MC servers.'
+
+jar {
+    doFirst {
+        manifest {
+            if (!configurations.compile.isEmpty()) {
+                attributes('Class-Path': 'jedis.jar')
+            }
+        }
+    }
+}
+
+// Compile for Java 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { // LuckPerms repository
+        name 'luckperms-repo'
+        url 'http://repo.lucko.me/'
+    }
+}
+
+dependencies {
+    compileOnly  'org.spongepowered:spongeapi:6.0.0' // Sponge API
+    compileOnly  'me.lucko.luckperms:luckperms-api:3.3' // LuckPerms API
+
+    compileOnly 'redis.clients:jedis:2.9.0' // Redis API
+}
+
+minecraft {
+    forgeVersion = '12.18.3.2488' // Forge 1.10.2
+    mappings = 'stable_29'
+}

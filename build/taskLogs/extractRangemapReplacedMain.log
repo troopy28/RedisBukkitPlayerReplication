@@ -1,0 +1,108 @@
+Symbol range map extraction starting
+Processing 28 files
+startProcessing "org\kubithon\replicate\ReplicatePluginSponge.java" md5: 3c767c21d7f97c62c64eeb117d6f957d
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+endProcessing "org\kubithon\replicate\ReplicatePluginSponge.java"
+
+startProcessing "org\kubithon\replicate\SpongeConfig.java" md5: ed42ddfe720e6d32c835db61c460b122
+endProcessing "org\kubithon\replicate\SpongeConfig.java"
+
+startProcessing "org\kubithon\replicate\broking\BrokingConstant.java" md5: c21111dbd5fc1e97fac2ef930dde0810
+endProcessing "org\kubithon\replicate\broking\BrokingConstant.java"
+
+startProcessing "org\kubithon\replicate\broking\Credentials.java" md5: 1c336900d2654838e2daa56015bb8ee3
+endProcessing "org\kubithon\replicate\broking\Credentials.java"
+
+startProcessing "org\kubithon\replicate\broking\MessageListener.java" md5: cf9bc857ea67b4ba0018dcda644f9505
+    Compile Error! Pb(644) Default methods are allowed only at source level 1.8 or above
+    Compile Error! Pb(644) Default methods are allowed only at source level 1.8 or above
+endProcessing "org\kubithon\replicate\broking\MessageListener.java"
+
+startProcessing "org\kubithon\replicate\broking\PubSubManager.java" md5: 6b4882314632b4887ee9f8c4f4402ae6
+endProcessing "org\kubithon\replicate\broking\PubSubManager.java"
+
+startProcessing "org\kubithon\replicate\broking\impl\AbstractCredentials.java" md5: 1751e03d40c53999e6687b1636bde191
+endProcessing "org\kubithon\replicate\broking\impl\AbstractCredentials.java"
+
+startProcessing "org\kubithon\replicate\broking\impl\AbstractPubSubManager.java" md5: dcfd54309705ab7046c6e05ca5def1de
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable pattern defined in an enclosing scope
+    Compile Error! Pb(25) Cannot refer to the non-final local variable topic defined in an enclosing scope
+    Compile Error! Pb(25) Cannot refer to the non-final local variable message defined in an enclosing scope
+endProcessing "org\kubithon\replicate\broking\impl\AbstractPubSubManager.java"
+
+startProcessing "org\kubithon\replicate\broking\impl\ReplicationListener.java" md5: 53be1d3841e99bcdd23a4a947496dfc5
+endProcessing "org\kubithon\replicate\broking\impl\ReplicationListener.java"
+
+startProcessing "org\kubithon\replicate\broking\impl\redis\RedisCredentials.java" md5: 07267c1e7c9bc5f7ded135f230453d21
+endProcessing "org\kubithon\replicate\broking\impl\redis\RedisCredentials.java"
+
+startProcessing "org\kubithon\replicate\broking\jedis\JedisPubSubManager.java" md5: 90b33779d0d19eb5d00afc92a74a52f6
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable topic defined in an enclosing scope
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable pattern defined in an enclosing scope
+endProcessing "org\kubithon\replicate\broking\jedis\JedisPubSubManager.java"
+
+startProcessing "org\kubithon\replicate\listener\SpongeConnectionListener.java" md5: 3dcd2535176fffe519b3c776eb7dfe1c
+endProcessing "org\kubithon\replicate\listener\SpongeConnectionListener.java"
+
+startProcessing "org\kubithon\replicate\listener\SpongeInventoryClickListener.java" md5: a8cf6fcacc84da764decd705525f501a
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable player defined in an enclosing scope
+endProcessing "org\kubithon\replicate\listener\SpongeInventoryClickListener.java"
+
+startProcessing "org\kubithon\replicate\listener\SpongeItemHeldChangedListener.java" md5: 26b0fb1afc1965c279798b98a8f7a963
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable player defined in an enclosing scope
+endProcessing "org\kubithon\replicate\listener\SpongeItemHeldChangedListener.java"
+
+startProcessing "org\kubithon\replicate\netty\ReplicateHandler.java" md5: 6d2c2d3ac94fcd5595c1306aac967c94
+endProcessing "org\kubithon\replicate\netty\ReplicateHandler.java"
+
+startProcessing "org\kubithon\replicate\netty\ReplicationChannelHandler.java" md5: 6d1f43c10ec38660c0dbb5c4b097a72d
+    Compile Error! Pb(645) Lambda expressions are allowed only at source level 1.8 or above
+    Compile Error! Pb(25) Cannot refer to the non-final local variable player defined in an enclosing scope
+endProcessing "org\kubithon\replicate\netty\ReplicationChannelHandler.java"
+
+startProcessing "org\kubithon\replicate\replication\ReplicationManager.java" md5: 279626c844f2d453878be8561feb37c5
+    Compile Error! Pb(883) '<>' operator is not allowed for source level below 1.7
+    Compile Error! Pb(883) '<>' operator is not allowed for source level below 1.7
+endProcessing "org\kubithon\replicate\replication\ReplicationManager.java"
+
+startProcessing "org\kubithon\replicate\replication\npc\ReplicatedPlayer.java" md5: c8d153d876a165dbbd6b8a076cac412c
+    Compile Error! Pb(883) '<>' operator is not allowed for source level below 1.7
+endProcessing "org\kubithon\replicate\replication\npc\ReplicatedPlayer.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\KubicketType.java" md5: 3f613c7236549855e6c14f829695e182
+endProcessing "org\kubithon\replicate\replication\protocol\KubicketType.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\KubithonPacket.java" md5: 773ee9dbe3833faca54f2c84b1399863
+    Compile Error! Pb(883) '<>' operator is not allowed for source level below 1.7
+endProcessing "org\kubithon\replicate\replication\protocol\KubithonPacket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerConnectionKubicket.java" md5: 5d27704ace8a81f6b60e9efef84cfef5
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerConnectionKubicket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerEquipmentKubicket.java" md5: f3fbd954bb5cd4fd5f5c1d2dd9ca951c
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerEquipmentKubicket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerHandAnimationKubicket.java" md5: 19569a232d8147a9e73398ef309b62a6
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerHandAnimationKubicket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerLookKubicket.java" md5: 231ea17bd2f239667487d0a9cb163a3c
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerLookKubicket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerPositionKubicket.java" md5: d3e47a717000bef80acb83c62e7385fb
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerPositionKubicket.java"
+
+startProcessing "org\kubithon\replicate\replication\protocol\PlayerPositionLookKubicket.java" md5: 1e2ac1c8a26af66ccb7e7c636a749a3f
+endProcessing "org\kubithon\replicate\replication\protocol\PlayerPositionLookKubicket.java"
+
+startProcessing "org\kubithon\replicate\util\ByteUtils.java" md5: 10e06ea8f4b67bb6ae272552496d318a
+endProcessing "org\kubithon\replicate\util\ByteUtils.java"
+
+startProcessing "org\kubithon\replicate\util\SpongeScheduler.java" md5: b981c074a7fd41cbfd25c0fcdc6b2777
+endProcessing "org\kubithon\replicate\util\SpongeScheduler.java"
+
